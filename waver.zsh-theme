@@ -1,4 +1,4 @@
-PROMPT="%{${fg[cyan]}%}%n%{$reset_color%}%{${fg[white]}%}@%{$reset_color%}%{${fg[magenta]}%}%m%{$reset_color%}%{${fg[white]}%}:%{$reset_color%}%{${fg[yellow]}%}%~%{$reset_color%}\$(git_prompt_info)
+PROMPT="%{${fg[cyan]}%}%n%{$reset_color%}%{${fg[white]}%}@%{$reset_color%}%{${fg[magenta]}%}%m%{$reset_color%}%{${fg[white]}%}:%{$reset_color%}%{${fg[yellow]}%}%~%{$reset_color%} \$(git_prompt_info)
 $ "
 RPROMPT="%{${fg[white]}%}%D %*%{$reset_color%}"
 
