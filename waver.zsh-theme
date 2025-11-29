@@ -7,7 +7,7 @@ PROMPT="%{$lightblue%}%n%{$reset_color%}@%{$pink%}%m%{$reset_color%}:%{$lightora
 $ "
 RPROMPT="%D %*"
 
-ZSH_THEME_GIT_PROMPT_PREFIX="(%{$teal%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%})"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$teal%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{${fg[green]}%}✔%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{${fg[red]}%}✗%{$reset_color%}"
