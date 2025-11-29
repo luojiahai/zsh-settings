@@ -3,7 +3,7 @@ lightblue=$'\e[38;5;45m'
 lightorange=$'\e[38;5;215m'
 teal=$'\e[38;5;6m'
 
-PROMPT="%{$pink%}%n%{$reset_color%}@%{$lightblue%}%m%{$reset_color%}:%{$lightorange%}%~%{$reset_color%} \$(git_prompt_info)
+PROMPT="%{$lightblue%}%n%{$reset_color%}@%{$pink%}%m%{$reset_color%}:%{$lightorange%}%~%{$reset_color%} \$(git_prompt_info)
 $ "
 RPROMPT="%D %*"
 
