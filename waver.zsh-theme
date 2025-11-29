@@ -1,4 +1,4 @@
-pink=$'\e[38;5;211m'
+pink=$'\e[38;5;205m'
 lightblue=$'\e[38;5;45m'
 lightorange=$'\e[38;5;215m'
 teal=$'\e[38;5;6m'
