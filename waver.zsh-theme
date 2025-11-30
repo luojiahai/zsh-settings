@@ -2,7 +2,7 @@ cyan=$'\e[38;5;80m'
 magenta=$'\e[38;5;211m'
 yellow=$'\e[38;5;222m'
 
-PROMPT="%{$cyan%}%n%{$reset_color%}@%{$magenta%}%m%{$reset_color%}:%{$yellow%}%~%{$reset_color%} \$(git_prompt_info)
+PROMPT="▶ %{$cyan%}%n%{$reset_color%}@%{$magenta%}%m%{$reset_color%}:%{$yellow%}%~%{$reset_color%} \$(git_prompt_info)
 $ "
 RPROMPT="%D %*"
 
